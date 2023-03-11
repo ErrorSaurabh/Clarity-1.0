@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import '.'
+// importing components from react-router-dom package
+import { BrowserRouter as Router, 
+Route, Routes,} from "react-router-dom";
 
+import Login from "./Components/Login";
+import Create from "./Components/Create";
+import Forgot from "./Components/Forgot";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+return (
+	<>
+	{/* This is the alias of BrowserRouter i.e. Router */}
+	<Router>
+		<Routes>
+		<Route exact path='/' element={<Login/>} />
+		
+		<Route  path='/create' element={<Create/>} />
+		
+		<Route  path='/forgot' element={<Forgot/>} />
+			
+		
+		</Routes>
+	</Router>
+	</>
+);
 }
 
 export default App;

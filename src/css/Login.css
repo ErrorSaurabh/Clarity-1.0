@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(34, 34, 67);
+    color: white;
+}
+
+
+.container{
+  position: fixed;
+  top: 12%;
+  left: 38% ;
+}
+
+
+.logo{
+  width: 20rem;
+}
+
+
+.center{
+  height: 26rem;
+  width: 20rem;
+  border: solid 2px rgb(80, 80, 164);
+  background-color: rgb(80, 80, 164);
+  padding: 2rem 2rem;
+}
+
+
+.center h1{
+  margin-bottom: 20px;
+}
+
+
+.center::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+
+.input{
+  background-color: rgb(80, 80, 164);
+  border-top: none;
+  border-left: none ;
+  border-right: none;
+}
+
+.center span a{
+  text-decoration: none;
+  text-decoration: underline;
+  color: grey;
+}
+ #forgotpassword{
+  margin-bottom: 10px;
+ }

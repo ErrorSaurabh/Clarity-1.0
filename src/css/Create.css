@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(34, 34, 67);
+    color: white;
+}
+
+
+.logo{
+  width: 40rem;
+}
+
+
+.center h1{
+  margin-bottom: 20px;
+}
+
+
+.center::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+
+.btn{
+  border-radius: 50px;
+
+}
+
+
+.input{
+  background-color: rgb(80, 80, 164);
+  border-top: none;
+  border-left: none ;
+  border-right: none;
+}
+
+
+.center span a{
+  text-decoration: none;
+  text-decoration: underline;
+  color: grey;
+}
+
+
+ #forgotpassword{
+  margin-bottom: 10px;
+ }
+
+ 
+#termsandcondition{
+  text-decoration: none;
+  color: white;
+}
